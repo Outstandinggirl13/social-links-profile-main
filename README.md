@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Mobile-First Social Links Profile with Semantic HTML](https://www.frontendmentor.io/solutions/mobile-first-social-links-profile-with-semantic-html-37Pt7Q_UIR)
 - Live Site URL: [GitHub Pages](https://outstandinggirl13.github.io/social-links-profile-main/)
 
 ## My process
