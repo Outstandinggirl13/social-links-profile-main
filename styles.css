@@ -1,5 +1,165 @@
+/* ===========================
+   FONTS
+   =========================== */
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    src: url('assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* ===========================
+   RESET
+   =========================== */
+
+*,
+*::after,
+*::before {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+   
+img,
+picture,
+video {
+     display: block;
+     max-width: 100%;
+     height: auto;
+}
+   
+input,
+button,
+textarea,
+select {
+     font: inherit;
+     color: inherit;
+     background: none;
+     border-color: transparent;
+}
+   
+a {
+     text-decoration: none;
+     color: inherit;
+}
+   
+ul,
+ol {
+     list-style-type: none;
+}
+   
+/* ===========================
+    CSS VARIABLES
+   =========================== */
+   
+:root {
+   
+    --green: hsl(75, 94%, 57%);
+
+    --white: hsl(0, 0%, 100%);
+        
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+   
+    --font-base: 'Inter', sans-serif;
+   
+}
+
+/* ===========================
+   BASE
+   =========================== */
+
+body {
+    font-family: var(--font-base);
+    color: var(--white);
+    font-size: 14px;
+    background-color: var(--grey-900);
+}
+
+/* ===========================
+   LAYOUT & ELEMENTS
+   =========================== */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--grey-800);
+    border-radius: 14px;
+    padding: 24px 24px 8px 24px;
+    margin-top: 8px;
+}
+
+.card__header {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.card__image {
+    max-width: 88px;
+    max-height: 88px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card__author-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 28px;
+}
+
+.card__location {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 9px;
+    color: var(--green);
+}
+
+.card__description {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.card__links {
+    text-align: center;
+}
+
+.card__link {
+    margin-bottom: 16px;
+    background-color: var(--grey-700);
+    padding: 14px 0;
+    font-weight: 700;
+    border-radius: 6px;
+    /* min-width: 278px; */
+    width: clamp(200px, calc(278px + (24 * ((100vw - 375px) / (1140 - 375)))), 302px);
+}
+
 .attribution { 
-    font-size: 11px; 
+    font-size: 14px;
+    padding: 16px;
     text-align: center; 
 }
 
