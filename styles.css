@@ -91,7 +91,7 @@ ol {
 body {
     font-family: var(--font-base);
     color: var(--white);
-    font-size: 14px;
+    font-size: 0.875rem;
     background-color: var(--grey-900);
 }
 
@@ -109,38 +109,38 @@ body {
 .card {
     background-color: var(--grey-800);
     border-radius: 14px;
-    padding: 24px 24px 8px 24px;
-    margin-top: 8px;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    margin-top: 0.5rem;
 }
 
 .card__header {
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
     text-align: center;
 }
 
 .card__image {
-    max-width: 88px;
-    max-height: 88px;
+    max-width: 5.5rem;
+    max-height: 5.5rem;
     border-radius: 50%;
     margin: 0 auto;
 }
 
 .card__author-name {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 28px;
+    margin-top: 1.75rem;
 }
 
 .card__location {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
-    margin-top: 9px;
+    margin-top: 0.625px;
     color: var(--green);
 }
 
 .card__description {
     text-align: center;
-    margin-bottom: 28px;
+    margin-bottom: 1.74rem;
 }
 
 .card__links {
@@ -148,17 +148,16 @@ body {
 }
 
 .card__link {
-    margin: 0 auto 16px;
+    margin: 0 auto 1rem;
     background-color: var(--grey-700);
-    padding: 14px 0;
+    padding: 0.875rem 0;
     font-weight: 700;
     border-radius: 6px;
-    width: clamp(200px, 75vw, 302px);
+    width: clamp(12.5rem, 75vw, 18.875rem);
 }
 
 .attribution { 
-    font-size: 14px;
-    padding: 16px;
+    padding: 1rem;
     text-align: center; 
 }
 
@@ -166,10 +165,10 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 750px) {
+@media (min-width: 46.875rem) {
     .card {
-        padding: 40px 40px 24px;
-        margin-top: 32px;
+        padding: 2.5rem 2.5rem 1.5rem;
+        margin-top: 2rem;
     }
 
     .attribution {
