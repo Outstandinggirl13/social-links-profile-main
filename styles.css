@@ -134,7 +134,7 @@ body {
 .card__location {
     font-size: 0.875rem;
     font-weight: 700;
-    margin-top: 0.625px;
+    margin-top: 0.5625rem;
     color: var(--green);
 }
 
@@ -156,7 +156,8 @@ body {
     width: clamp(12.5rem, 75vw, 18.875rem);
 }
 
-.card__link:hover {
+.card__link:hover,
+.card__link:active {
     background-color: var(--green);
     color: var(--grey-700);
     cursor: pointer;
